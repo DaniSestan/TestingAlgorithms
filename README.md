@@ -1,13 +1,13 @@
 # Testing Algorithms in Python
 
-### Description
+## Description
 **Status:** In Progress
 
 This is a new, smaller project I've created for my own reference. I intend to review my Python skills again by use of various algorithms, and by measuring algorithmic efficiency.
 
 ---
 
-#### Testing Exercises
+### Testing Exercises
 
 **00_basic_algorithms:** binary search, simple performance timing, (deterministic) brute force algorithm, pure random algorithm, use of python dictionaries
 
