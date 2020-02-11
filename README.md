@@ -7,7 +7,7 @@ This is a new, smaller project I've created for my own reference. I intend to re
 
 ---
 
-### Testing Exercises
+### Exercises
 
 **00_basic_algorithms:** binary search, simple performance timing, (deterministic) brute force algorithm, pure random algorithm, use of python dictionaries
 
