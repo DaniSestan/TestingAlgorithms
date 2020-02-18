@@ -9,11 +9,17 @@ This is a new, smaller project I've created for my own reference. I intend to re
 
 ### Exercises
 
-**00_basic_algorithms:** binary search, simple performance timing, (deterministic) brute force algorithm, pure random algorithm, use of python dictionaries
+**01_basic_algorithms:** simple program using binary search, basic performance timing, (deterministic) brute force algorithm, pure random algorithm
 
-**01a_alg_efficiency_math_and_numpy_html_tables:** I'm writing something to test my basic understanding of algorithmic efficiency, python with math and/or numpy modules, and implementing html tables in a Python program
+**02_algorithmic_efficiency:** Testing understanding of algorithmic efficiency; solving algorithms with straightforwared algebraic operations, as well as more complex manipulations, such as Stirling's Approximation. End result should be printed to html file, displaying a table that returns comparisons of running times.
 
-**01b_insertion_and_merge_sort**: Writing small function for time efficiency -- to be used measuring execution times of both insertion and merge sorting algorithms. Will be testing with included data files. Computing and displaying total number of comparisons to complete each sorting algorithm, and time efficiencies.
+For each function _f(n)_ and the time _t_, evaluate the largest size n of problem that can be solved in time _t_, assuming that the algorithm to solve the problem takes _f(n)_ microseconds.
+
+Functions _f(n)_: log<sub>2</sub>_n_, √_n_, _n_, _n_ log<sub>2</sub> _n_, _n_<sup>2</sup>, _n_<sup>3</sup>, 2<sup>_n_</sup>, and _n_! 
+
+Time periods: 1 second, 1 minute, 1 hour, 1 day, 1 month, 1 year, 1 century
+
+**03_insertion_and_merge_sort**: Writing small function for time efficiency -- to be used measuring execution times of both insertion and merge sorting algorithms. Will be testing with included data files. Computing and displaying total number of comparisons to complete each sorting algorithm, and time efficiencies.
 
 **02:**
 

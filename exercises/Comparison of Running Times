@@ -1,0 +1,15 @@
+<html><head></head><body><h1>Comparison of Running Times</h1><table>
+<thead>
+<tr><th>f(n)         </th><th>1 second                  </th><th>1 minute                      </th><th>1 hour                        </th><th>1 day                          </th><th>1 month                        </th><th>1 year                         </th><th>1 century                      </th></tr>
+</thead>
+<tbody>
+<tr><td>lg n         </td><td>2<sup>10<sup>6</sup></sup></td><td>2<sup>6 x 10<sup>7</sup></sup></td><td>2<sup>3 x 10<sup>9</sup></sup></td><td>2<sup>8 x 10<sup>10</sup></sup></td><td>2<sup>2 x 10<sup>12</sup></sup></td><td>2<sup>3 x 10<sup>13</sup></sup></td><td>2<sup>3 x 10<sup>15</sup></sup></td></tr>
+<tr><td>&#8730;n     </td><td>10<sup>12</sup>           </td><td>36 x 10<sup>14</sup>          </td><td>12.96 x 10<sup>18</sup>       </td><td>74.6496 x 10<sup>20</sup>      </td><td>6.718464 x 10<sup>24</sup>     </td><td>9.94519296 x 10<sup>26</sup>   </td><td>9.94519296 x 10<sup>30</sup>   </td></tr>
+<tr><td>n            </td><td>10<sup>6</sup>            </td><td>6 x 10<sup>7</sup>            </td><td>3.6 x 10<sup>9</sup>          </td><td>8.64 x 10<sup>10</sup>         </td><td>2.592 x 10<sup>12</sup>        </td><td>3.1536 x 10<sup>13</sup>       </td><td>3.1536 x 10<sup>15</sup>       </td></tr>
+<tr><td>n lg n       </td><td>                          </td><td>                              </td><td>                              </td><td>                               </td><td>                               </td><td>                               </td><td>                               </td></tr>
+<tr><td>n<sup>2</sup></td><td>                          </td><td>                              </td><td>                              </td><td>                               </td><td>                               </td><td>                               </td><td>                               </td></tr>
+<tr><td>n<sup>3</sup></td><td>                          </td><td>                              </td><td>                              </td><td>                               </td><td>                               </td><td>                               </td><td>                               </td></tr>
+<tr><td>2<sup>n</sup></td><td>                          </td><td>                              </td><td>                              </td><td>                               </td><td>                               </td><td>                               </td><td>                               </td></tr>
+<tr><td>n!           </td><td>                          </td><td>                              </td><td>                              </td><td>                               </td><td>                               </td><td>                               </td><td>                               </td></tr>
+</tbody>
+</table></body></html>

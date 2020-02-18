@@ -167,7 +167,7 @@ def top_word_occurrences():
         print('%s : %d' % (sorted(word_dict.items(), key=lambda x: x[1], reverse=True)[i][0], sorted(word_dict.items(), key=lambda x: x[1], reverse=True)[i][1]))
 
 
-# guessing_game()
+guessing_game()
 # time_efficiency(sum_up)
 # print("Part 1, #3 - Using deterministic brute-force algorithm: ")
 # another_guessing_game(deterministic_brute_force_guessing)
