@@ -11,9 +11,9 @@ This is a new, smaller project I've created for my own reference. Working on thi
 
 **01_basic_algorithms:** simple program using binary search, basic performance timing, (deterministic) brute force algorithm, pure random algorithm
 
-**02_algorithmic_efficiency:** testing understanding of algorithmic efficiency; solving algorithms with straightforward algebraic operations, as well as more complex manipulations, such as Stirling's Approximation. End result should be printed to html file, displaying a table that returns comparisons of running times.
+**02_algorithmic_efficiency:** testing understanding of algorithmic efficiency; solving algorithms with straightforward algebraic operations, as well as more complex manipulations, such as Stirling's Approximation. End result is printed to html file, displaying a table that returns comparisons of running times.
 
-For each function _f(n)_ and the time _t_, evaluate the largest size n of problem that can be solved in time _t_, assuming that the algorithm to solve the problem takes _f(n)_ microseconds.
+Problem: For each function _f(n)_ and the time _t_, evaluate the largest size n of problem that can be solved in time _t_, assuming that the algorithm to solve the problem takes _f(n)_ microseconds.
 
 Functions _f(n)_: log<sub>2</sub>_n_, √_n_, _n_, _n_ log<sub>2</sub> _n_, _n_<sup>2</sup>, _n_<sup>3</sup>, 2<sup>_n_</sup>, and _n_! 
 
