@@ -22,17 +22,16 @@
 from tabulate import tabulate
 import os
 import webbrowser
-import math
-import decimal
+import sys
 from decimal import Decimal
-
+import math
 
 def comparisonOfRunningTimes():
     # defining the table headers and the initial table values as column (at index 0) with values for function 'f(n)'
     #  each list contained in the table corresponds to a row that will be appended with
     #  time values for each each function f(n)
     headers = ["f(n)", "1 second", "1 minute", "1 hour", "1 day", "1 month", "1 year", "1 century"]
-    table = [["lg n"], ["&#8730;n"], ["n"], ["n lg n"], ["n<sup>2</sup>"], ["n<sup>3</sup>"], ["2<sup>n</sup>"],
+    table = [["lg n"], ["√n"], ["n"], ["n lg n"], ["n<sup>2</sup>"], ["n<sup>3</sup>"], ["2<sup>n</sup>"],
              ["n!"]]
 
     # included a dictionary of values for my own reference of time conversions:
@@ -50,13 +49,13 @@ def comparisonOfRunningTimes():
     #  arg 2: - this function is called inside nested for loop; is called for each column ('k')
     #         - the function used/called should correspond to the type of function f(n) in the table
 
-    def solveForN(row, function):
+    def solveForN(row, function, *args):
         j = 0
         while j < len(times):
             result = 1
             for k in range(j+1):
                 result = result * (conversions[k])
-            table[row].append(function(result))
+            table[row].append(function(result, *args))
             j += 1
 
     # inner function: solve for exponent in decimal equivalent of time
@@ -68,39 +67,55 @@ def comparisonOfRunningTimes():
     def fman(number):
         return Decimal(number).scaleb(-fexp(number)).normalize()
 
-    # TODO: write function to combine process for (at least first three) functions,
-    #  which should take into account log base, and any exponents of n to be used as a
-    #  factor of the 'exponent' variable
+    # inner function: used for operation where f(n) = lg n, √n, or n
+    def evalTime(t, exp, base=''):
+        exponent = fexp(t) * exp
+        mantissa = fman(t) ** exp
 
-    # inner function: lg n
-    def operationForLogN(t):
-        exponent = fexp(t)
-        mantissa = fman(t)
-        # if-else statement to simplify printed values, such as 2^(10^6) versus 2^(1 * 10^6)
         if mantissa != 1:
-            return "2<sup>%d x 10<sup>%d</sup></sup>" % (mantissa, exponent)
+            result = "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
         else:
-            return "2<sup>10<sup>%d</sup></sup>" % exponent
+            result = "10<sup>%s</sup>" % str(exponent)
 
-    # inner function: sqrt(n)
-    def operationForSqrtOfN(t):
-        exponent = fexp(t) * 2
-        mantissa = fman(t) ** 2
-        if mantissa != 1:
-            return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
-        else:
-            return "10<sup>%s</sup>" % str(exponent)
+        if base == 2:
+            return "2<sup>%s</sup>" % result
 
-    # n
-    def operationForN(t):
-        exponent = fexp(t)
-        mantissa = fman(t)
-        if mantissa != 1:
-            return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
-        else:
-            return "10<sup>%s</sup>" % str(exponent)
+        return result
+
+    def evalTimeForLogNofN():
+        # print(10**6/math.log(10**6, 2))
+        print()
+
+    # # inner function: lg n
+    # def operationForLogN(t):
+    #     exponent = fexp(t)
+    #     mantissa = fman(t)
+    #     # if-else statement to simplify printed values, such as 2^(10^6) versus 2^(1 * 10^6)
+    #     if mantissa != 1:
+    #         return "2<sup>%s x 10<sup>%s</sup></sup>" % (str(mantissa), str(exponent))
+    #     else:
+    #         return "2<sup>10<sup>%s</sup></sup>" % str(exponent)
+    #
+    # # inner function: √n
+    # def operationForSqrtOfN(t):
+    #     exponent = fexp(t) * 2
+    #     mantissa = fman(t) ** 2
+    #     if mantissa != 1:
+    #         return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
+    #     else:
+    #         return "10<sup>%s</sup>" % str(exponent)
+    #
+    # # n
+    # def operationForN(t):
+    #     exponent = fexp(t)
+    #     mantissa = fman(t)
+    #     if mantissa != 1:
+    #         return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
+    #     else:
+    #         return "10<sup>%s</sup>" % str(exponent)
 
     # n log n
+
 
     # n^2
 
@@ -111,9 +126,13 @@ def comparisonOfRunningTimes():
     # n!
 
     # test:
-    solveForN(0, operationForLogN)
-    solveForN(1, operationForSqrtOfN)
-    solveForN(2, operationForN)
+    solveForN(0, evalTime, 1, 2)
+    solveForN(1, evalTime, 2)
+    solveForN(2, evalTime, 1)
+    # solveForN(0, operationForLogN)
+    # solveForN(1, operationForSqrtOfN)
+    # solveForN(2, operationForN)
+    evalTimeForLogNofN()
 
     message = """<html><head></head><body><h1>Comparison of Running Times</h1>""" + \
               tabulate(table, headers, tablefmt="html") \
@@ -123,7 +142,7 @@ def comparisonOfRunningTimes():
     f.write(message)
     f.close()
 
-    webbrowser.open_new_tab('file://' + os.getcwd() + '/Comparison of Running Times')
+    # webbrowser.open_new_tab('file://' + os.getcwd() + '/Comparison of Running Times')
 
 
 comparisonOfRunningTimes()
