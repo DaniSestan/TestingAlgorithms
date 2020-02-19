@@ -55,7 +55,7 @@ def comparison_of_running_times():
     #  arg 2:   - this function is called inside nested for loop; is called for each column ('k')
     #           - the function used/called should correspond to the type of function f(n) in the table
     #  **args:  - the values to be used as arguments in the callback function (second argument)
-    def solve_time_for_f_of_n(row, function, *args):
+    def solve_for_f_of_n(row, function, *args):
         j = 0
         while j < len(times):
             result = 1
@@ -74,7 +74,7 @@ def comparison_of_running_times():
         return Decimal(number).scaleb(-fexp(number)).normalize()
 
     # inner function: used for operation in f(n) = lg n, √n, or n; returns result in Scientific notation
-    def eval_time_sci_notation(t, exp, base=''):
+    def eval_sci_notation(t, exp, base=''):
         exponent = fexp(t) * exp
         mantissa= fman(t) ** exp
 
@@ -93,7 +93,7 @@ def comparison_of_running_times():
     #  The resulting values are asymptotic -- n and t/math(log(n,2) become exponentially closer to a 1:1 ratio.
     #  Once the boundary is approached, n is returned from the function. The breaking condition can be reached
     #  by rounding the result of t / math.log(n,2).
-    def eval_time_for_n_log_n(t):
+    def eval_for_n_log_n(t):
         n = t
         while round(t / math.log(n, 2)) != n:
             n = round(t / math.log(n, 2))
@@ -101,33 +101,33 @@ def comparison_of_running_times():
         return n
 
     # inner function: used for operation in f(n) = n^2 or n^3; returns result in integer notation
-    def eval_time_int_notation(result, root):
+    def eval_int_notation(result, root):
         root = 1/root
         return round(math.pow(result, root))
 
     # inner function: used for operation in f(n) = 2^n
-    def eval_time_for_2_to_n(time):
+    def eval_for_2_to_n(time):
         n = 1
         while math.pow(2, n) < time:
             n += 1
         return n - 1
 
     # inner function: used for operation in f(n) = n!
-    def eval_time_for_n_factorial(time):
+    def eval_for_n_factorial(time):
         n = 1
         while math.factorial(n) < time:
             n += 1
         return n - 1
 
     # print to table
-    solve_time_for_f_of_n(0, eval_time_sci_notation, 1, 2)
-    solve_time_for_f_of_n(1, eval_time_sci_notation, 2)
-    solve_time_for_f_of_n(2, eval_time_sci_notation, 1)
-    solve_time_for_f_of_n(3, eval_time_for_n_log_n)
-    solve_time_for_f_of_n(4, eval_time_int_notation, 2)
-    solve_time_for_f_of_n(5, eval_time_int_notation, 3)
-    solve_time_for_f_of_n(6, eval_time_for_2_to_n)
-    solve_time_for_f_of_n(7, eval_time_for_n_factorial)
+    solve_for_f_of_n(0, eval_sci_notation, 1, 2)
+    solve_for_f_of_n(1, eval_sci_notation, 2)
+    solve_for_f_of_n(2, eval_sci_notation, 1)
+    solve_for_f_of_n(3, eval_for_n_log_n)
+    solve_for_f_of_n(4, eval_int_notation, 2)
+    solve_for_f_of_n(5, eval_int_notation, 3)
+    solve_for_f_of_n(6, eval_for_2_to_n)
+    solve_for_f_of_n(7, eval_for_n_factorial)
 
     message = """<html><head></head><body><h1>Comparison of Running Times</h1>""" + \
               tabulate(table, headers, tablefmt="html") \
