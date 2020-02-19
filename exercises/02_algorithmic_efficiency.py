@@ -26,7 +26,8 @@ import sys
 from decimal import Decimal
 import math
 
-def comparisonOfRunningTimes():
+
+def comparison_of_running_times():
     # defining the table headers and the initial table values as column (at index 0) with values for function 'f(n)'
     #  each list contained in the table corresponds to a row that will be appended with
     #  time values for each each function f(n)
@@ -37,19 +38,24 @@ def comparisonOfRunningTimes():
     # included a dictionary of values for my own reference of time conversions:
     #  The number of days in a year is assumed to be 356. The number of days in a month is assumed to be 30.
     #  Based on these values, the AVERAGE number of years is calculated as '365/30' or '12.16666667'
-    times = {"1 second in nanoseconds": 10 ** 6, "1 minute in seconds": 60, "1 hour in minutes": 60,
-             "1 day in hours": 24, "1 month in days": 30, "1 year (356 days) in avg months": 365/30,
-             "1 century in years": 100}
+    times = {
+        "1 second in nanoseconds": 10 ** 6,
+        "1 minute in seconds": 60, "1 hour in minutes": 60,
+        "1 day in hours": 24,
+        "1 month in days": 30,
+        "1 year (356 days) in avg months": 365/30,
+        "1 century in years": 100
+    }
 
     # values to be used in calculating table results
     conversions = list(times.values())
 
     # inner function: called for each function f(n) (indicated with 2 arguments:
     #  arg 1: index of row (as index value of outer 'table' list
-    #  arg 2: - this function is called inside nested for loop; is called for each column ('k')
-    #         - the function used/called should correspond to the type of function f(n) in the table
-
-    def solveForN(row, function, *args):
+    #  arg 2:   - this function is called inside nested for loop; is called for each column ('k')
+    #           - the function used/called should correspond to the type of function f(n) in the table
+    #  **args:  - the values to be used as arguments in the callback function (second argument)
+    def solve_time_for_f_of_n(row, function, *args):
         j = 0
         while j < len(times):
             result = 1
@@ -67,10 +73,10 @@ def comparisonOfRunningTimes():
     def fman(number):
         return Decimal(number).scaleb(-fexp(number)).normalize()
 
-    # inner function: used for operation where f(n) = lg n, √n, or n
-    def evalTime(t, exp, base=''):
+    # inner function: used for operation in f(n) = lg n, √n, or n; returns result in Scientific notation
+    def eval_time_sci_notation(t, exp, base=''):
         exponent = fexp(t) * exp
-        mantissa = fman(t) ** exp
+        mantissa= fman(t) ** exp
 
         if mantissa != 1:
             result = "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
@@ -82,26 +88,46 @@ def comparisonOfRunningTimes():
 
         return result
 
-    def evalTimeForLogNofN():
-        # print(10**6/math.log(10**6, 2))
-        print()
+    # inner function: used for operation in f(n) = n log n
+    #  This function uses n = time/log2(n) and then does a fixed point iteration, starting with n0 = t.
+    #  The resulting values are asymptotic -- n and t/math(log(n,2) become exponentially closer to a 1:1 ratio.
+    #  Once the boundary is approached, n is returned from the function. The breaking condition can be reached
+    #  by rounding the result of t / math.log(n,2).
+    def eval_time_for_n_log_n(t):
+        n = t
+        while round(t / math.log(n, 2)) != n:
+            n = round(t / math.log(n, 2))
 
-    # n^2
+        return n
 
-    # n^3
+    # inner function: used for operation in f(n) = n^2 or n^3; returns result in integer notation
+    def eval_time_int_notation(result, root):
+        root = 1/root
+        return round(math.pow(result, root))
 
-    # 2^n
+    # inner function: used for operation in f(n) = 2^n
+    def eval_time_for_2_to_n(time):
+        n = 1
+        while math.pow(2, n) < time:
+            n += 1
+        return n - 1
 
-    # n!
+    # inner function: used for operation in f(n) = n!
+    def eval_time_for_n_factorial(time):
+        n = 1
+        while math.factorial(n) < time:
+            n += 1
+        return n - 1
 
-    # test:
-    solveForN(0, evalTime, 1, 2)
-    solveForN(1, evalTime, 2)
-    solveForN(2, evalTime, 1)
-    # solveForN(0, operationForLogN)
-    # solveForN(1, operationForSqrtOfN)
-    # solveForN(2, operationForN)
-    evalTimeForLogNofN()
+    # print to table
+    solve_time_for_f_of_n(0, eval_time_sci_notation, 1, 2)
+    solve_time_for_f_of_n(1, eval_time_sci_notation, 2)
+    solve_time_for_f_of_n(2, eval_time_sci_notation, 1)
+    solve_time_for_f_of_n(3, eval_time_for_n_log_n)
+    solve_time_for_f_of_n(4, eval_time_int_notation, 2)
+    solve_time_for_f_of_n(5, eval_time_int_notation, 3)
+    solve_time_for_f_of_n(6, eval_time_for_2_to_n)
+    solve_time_for_f_of_n(7, eval_time_for_n_factorial)
 
     message = """<html><head></head><body><h1>Comparison of Running Times</h1>""" + \
               tabulate(table, headers, tablefmt="html") \
@@ -111,7 +137,7 @@ def comparisonOfRunningTimes():
     f.write(message)
     f.close()
 
-    # webbrowser.open_new_tab('file://' + os.getcwd() + '/Comparison of Running Times')
+    webbrowser.open_new_tab('file://' + os.getcwd() + '/Comparison of Running Times')
 
 
-comparisonOfRunningTimes()
+comparison_of_running_times()
