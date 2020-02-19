@@ -1,10 +1,9 @@
 # Program Plan:
 
-# Try referencing the 'Comparison of Running Times' problem.
-# Consider using 'scipy', 'numpy', 'math', or any other modules to solve this.
-# The output will be in a HTML text format which includes a table with the responses. Use any HTML library module or simple print() or write() functions to write my html file. When the file is loaded on a browser, it should display a table in a reasonably nice table format looking like the one in the textbook.
+# Try to solve a problem that provides a comparison of running times.
+# The output will be in a HTML text format which includes a table with the responses.
 
-# For each function f(n) and time t in the following table,
+# Problem: For each function f(n) and time t in the following table,
 # determine the largest size n of a problem that can be solved in time t,
 # assuming that the algorithm to solve the problem takes f(n) microseconds.
 
@@ -22,7 +21,6 @@
 from tabulate import tabulate
 import os
 import webbrowser
-import sys
 from decimal import Decimal
 import math
 
