@@ -1,9 +1,7 @@
 # Testing the following:
 # - binary search
-# - timing performance
-# - (deterministic) brute force algorithm
-# - pure random algorithm
-# - use of Python dictionaries
+# - basic performance timing
+# - measure performance of (deterministic) brute force algorithm versus pure random algorithm
 
 import time
 import random
@@ -168,9 +166,7 @@ def top_word_occurrences():
 
 
 guessing_game()
-# time_efficiency(sum_up)
-# print("Part 1, #3 - Using deterministic brute-force algorithm: ")
-# another_guessing_game(deterministic_brute_force_guessing)
-# print("Part 1, #3 = Using pure random algorithm: ")
-# another_guessing_game(pure_random_guessing)
-# top_word_occurrences()
+time_efficiency(sum_up)
+another_guessing_game(deterministic_brute_force_guessing)
+another_guessing_game(pure_random_guessing)
+top_word_occurrences()
