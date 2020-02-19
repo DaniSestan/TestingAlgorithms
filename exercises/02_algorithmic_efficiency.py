@@ -9,9 +9,9 @@
 # assuming that the algorithm to solve the problem takes f(n) microseconds.
 
 #               1 SECOND | 1 MINUTE |   1 HOUR  |   1 DAY   |  1 MONTH  |   1 YEAR  | 1 CENTURY
-#             __________________________________________________________________________________
+
 #   lg n      ___________|__________|___________|___________|___________|___________|___________
-#   sqrt(n)   ___________|__________|___________|___________|___________|___________|___________
+#   √n        ___________|__________|___________|___________|___________|___________|___________
 #   n         ___________|__________|___________|___________|___________|___________|___________
 #   n lg n    ___________|__________|___________|___________|___________|___________|___________
 #   n2        ___________|__________|___________|___________|___________|___________|___________
@@ -85,37 +85,6 @@ def comparisonOfRunningTimes():
     def evalTimeForLogNofN():
         # print(10**6/math.log(10**6, 2))
         print()
-
-    # # inner function: lg n
-    # def operationForLogN(t):
-    #     exponent = fexp(t)
-    #     mantissa = fman(t)
-    #     # if-else statement to simplify printed values, such as 2^(10^6) versus 2^(1 * 10^6)
-    #     if mantissa != 1:
-    #         return "2<sup>%s x 10<sup>%s</sup></sup>" % (str(mantissa), str(exponent))
-    #     else:
-    #         return "2<sup>10<sup>%s</sup></sup>" % str(exponent)
-    #
-    # # inner function: √n
-    # def operationForSqrtOfN(t):
-    #     exponent = fexp(t) * 2
-    #     mantissa = fman(t) ** 2
-    #     if mantissa != 1:
-    #         return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
-    #     else:
-    #         return "10<sup>%s</sup>" % str(exponent)
-    #
-    # # n
-    # def operationForN(t):
-    #     exponent = fexp(t)
-    #     mantissa = fman(t)
-    #     if mantissa != 1:
-    #         return "%s x 10<sup>%s</sup>" % (str(mantissa), str(exponent))
-    #     else:
-    #         return "10<sup>%s</sup>" % str(exponent)
-
-    # n log n
-
 
     # n^2
 

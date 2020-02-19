@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3472e-f8f3-4724-b9be-5b2f29561f3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/Comparison of Running Times" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/Comparison of Running Times" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,7 @@
       <workItem from="1581915187114" duration="2620000" />
       <workItem from="1581918542736" duration="40043000" />
       <workItem from="1582046651474" duration="3214000" />
-      <workItem from="1582083566137" duration="12342000" />
+      <workItem from="1582083566137" duration="12619000" />
     </task>
     <servers />
   </component>
