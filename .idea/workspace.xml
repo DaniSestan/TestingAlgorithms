@@ -4,11 +4,26 @@
     <list default="true" id="dbc3472e-f8f3-4724-b9be-5b2f29561f3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_insertion_and_merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_insertion_and_merge_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +61,7 @@
       <recent name="$PROJECT_DIR$/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_algorithmic_efficiency">
+  <component name="RunManager" selected="Python.03_insertion_and_merge_sort">
     <configuration name="01_basic_algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing-algorithms-in-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +98,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_insertion_and_merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing-algorithms-in-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/03_insertion_and_merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,9 +188,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_insertion_and_merge_sort" />
+        <item itemvalue="Python.01_basic_algorithms" />
         <item itemvalue="Python.02_algorithmic_efficiency" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.01_basic_algorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +211,7 @@
       <workItem from="1581915187114" duration="2620000" />
       <workItem from="1581918542736" duration="40043000" />
       <workItem from="1582046651474" duration="3214000" />
-      <workItem from="1582083566137" duration="26806000" />
+      <workItem from="1582083566137" duration="49996000" />
     </task>
     <servers />
   </component>
@@ -193,22 +231,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1227" y="283" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1581918324405" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1582119608923">
+    <state width="912" height="276" key="GridCell.Tab.0.bottom" timestamp="1582219917908">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582119608923" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1582119608920">
+    <state width="912" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582219917908" />
+    <state width="912" height="276" key="GridCell.Tab.0.center" timestamp="1582219917907">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582119608920" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1582119608919">
+    <state width="912" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582219917907" />
+    <state width="912" height="276" key="GridCell.Tab.0.left" timestamp="1582219917906">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582119608919" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1582119608922">
+    <state width="912" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582219917906" />
+    <state width="912" height="276" key="GridCell.Tab.0.right" timestamp="1582219917907">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582119608922" />
+    <state width="912" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582219917907" />
     <state x="921" y="160" key="SettingsEditor" timestamp="1582094885441">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -221,6 +259,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1109" y="208" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1582046048086" />
+    <state x="644" y="118" width="632" height="807" key="find.popup" timestamp="1582216431324">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="644" y="118" width="632" height="807" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582216431324" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1581908460396">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -230,7 +272,8 @@
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_algorithmic_efficiency.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582119592263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1581918366318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_alg_efficiency_math_and_numpy_html_tables.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582043995076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
-    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$01_basic_algorithms.coverage" NAME="01_basic_algorithms Coverage Results" MODIFIED="1581918582368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$test.coverage" NAME="test Coverage Results" MODIFIED="1582098993225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$01_basic_algorithms.coverage" NAME="01_basic_algorithms Coverage Results" MODIFIED="1582120216751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$03_insertion_and_merge_sort.coverage" NAME="03_insertion_and_merge_sort Coverage Results" MODIFIED="1582219917885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
   </component>
 </project>

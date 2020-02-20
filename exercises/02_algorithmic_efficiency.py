@@ -87,10 +87,9 @@ def comparison_of_running_times():
         return result
 
     # inner function: used for operation in f(n) = n log n
-    #  This function uses n = time/log2(n) and then does a fixed point iteration, starting with n0 = t.
-    #  The resulting values are asymptotic -- n and t/math(log(n,2) become exponentially closer to a 1:1 ratio.
-    #  Once the boundary is approached, n is returned from the function. The breaking condition can be reached
-    #  by rounding the result of t / math.log(n,2).
+    #  This function uses 'n = time/log2(n)' with a fixed point iteration, starting with n0 = t.
+    #  Here, f(n) is a logarithm, so by using 'n = time/log2(n)', this method solves for
+    #  a value reflecting the asymptote.
     def eval_for_n_log_n(t):
         n = t
         while round(t / math.log(n, 2)) != n:
