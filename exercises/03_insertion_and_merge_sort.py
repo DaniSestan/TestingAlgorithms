@@ -36,6 +36,7 @@ def merge_sort(sort_list):
     global count
     count += 1
     if len(sort_list) == len(lst):
+        print("Sorted: ", sort_list)
         print("Number of comparisons: ", count)
 
 
