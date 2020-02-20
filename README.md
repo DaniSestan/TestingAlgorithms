@@ -6,6 +6,17 @@
 This is a new, smaller project I've created for my own reference. Working on this to sharpen my Python skills by testing different algorithms ranging from simple to complex, and by measuring algorithmic efficiency.
 
 ---
+### Proofs:
+**Proof 01:** Induction on Loop Invariants for Merge Sort
+
+**Proof 02:** 
+
+**Proof 03:** 
+
+**Proof 04:** 
+
+**Proof 05:** 
+
 
 ### Exercises
 
