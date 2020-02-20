@@ -5,6 +5,8 @@
 
 import time
 import random
+import os
+
 
 # common number guessing game, with the typical roles reversed
 # -- rather than prompting the user to guess the number, the user will
@@ -28,7 +30,8 @@ def guessing_game():
         guess_num = (low_num + high_num) // 2
         print("Computer guesses: ", guess_num)
         while True:
-            response = input("Type 'l' if larger, 's' if smaller, 'c' if correct: ")
+            response = input("Type 'l' if your number is larger than the guessed number, "
+                             "'s' if smaller, 'c' if correct: ")
             if response == 'l':
                 low_num = guess_num + 1
                 break
@@ -88,12 +91,6 @@ def foo(n):
     print("printing from function to test decorator")
 
 
-# testing decorator
-# TODO: remove commenting on two lines below
-wrapped_func = wrap_function(foo, 'bar')
-time_efficiency(wrapped_func)
-
-
 def another_guessing_game(guess_method):
     highest_tries = 0
     lowest_tries = 0
@@ -151,7 +148,14 @@ def pure_random_guessing(nums):
 
 
 def top_word_occurrences():
-    file = input("Enter file path: ")
+    file = os.getcwd() + '/../input/kennedy.txt'
+    use_sample = ''
+    while use_sample.lower() != 'n' and use_sample.lower() != 'y':
+        use_sample = input("Use sample text file? Y/N")
+
+    if use_sample.lower() == 'n':
+        file = input("Enter full file path: ")
+
     n = int(input("Enter the number of most frequent words to display: "))
     word_dict = {}
 
@@ -165,8 +169,11 @@ def top_word_occurrences():
         print('%s : %d' % (sorted(word_dict.items(), key=lambda x: x[1], reverse=True)[i][0], sorted(word_dict.items(), key=lambda x: x[1], reverse=True)[i][1]))
 
 
+top_word_occurrences()
 guessing_game()
 time_efficiency(sum_up)
+# testing decorator
+wrapped_func = wrap_function(foo, 'bar')
+time_efficiency(wrapped_func)
 another_guessing_game(deterministic_brute_force_guessing)
 another_guessing_game(pure_random_guessing)
-top_word_occurrences()

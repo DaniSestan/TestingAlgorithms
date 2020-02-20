@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3472e-f8f3-4724-b9be-5b2f29561f3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exercises/Proof 01 - Induction on Loop Invariants for Merge Sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/kennedy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_basic_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_basic_algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_algorithmic_efficiency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/Comparison of Running Times" beforeDir="false" afterPath="$PROJECT_DIR$/output/Comparison of Running Times" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/Proof 01 - Induction on Loop Invariants for Merge Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/proofs/Proof 01 - Induction on Loop Invariants for Merge Sort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +51,23 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/output" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Proofs" />
       <recent name="$PROJECT_DIR$/exercises" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/output" />
       <recent name="$PROJECT_DIR$/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_insertion_and_merge_sort">
+  <component name="RunManager" selected="Python.01_basic_algorithms">
     <configuration name="01_basic_algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing-algorithms-in-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,9 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.03_insertion_and_merge_sort" />
         <item itemvalue="Python.01_basic_algorithms" />
         <item itemvalue="Python.02_algorithmic_efficiency" />
+        <item itemvalue="Python.03_insertion_and_merge_sort" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -212,7 +217,7 @@
       <workItem from="1581915187114" duration="2620000" />
       <workItem from="1581918542736" duration="40043000" />
       <workItem from="1582046651474" duration="3214000" />
-      <workItem from="1582083566137" duration="51929000" />
+      <workItem from="1582083566137" duration="54304000" />
     </task>
     <servers />
   </component>
@@ -224,10 +229,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="847" y="183" width="1073" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581918575091" />
-    <state x="587" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582236216072">
+    <state x="587" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582237563990">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="587" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1582236216072" />
+    <state x="587" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1582237563990" />
+    <state x="697" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582237752114">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="697" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1582237752114" />
     <state x="777" y="120" key="CommitChangelistDialog2" timestamp="1582029085667">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -236,22 +245,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1227" y="283" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1581918324405" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1582229689128">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1582239320723">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582229689128" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1582229689127">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320723" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1582239320722">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582229689127" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1582229689127">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320722" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1582239320721">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582229689127" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1582229689128">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320721" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1582239320722">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582229689128" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320722" />
     <state x="921" y="160" key="SettingsEditor" timestamp="1582094885441">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -268,17 +277,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="644" y="118" width="632" height="807" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582216431324" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1581908460396">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582238051999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1581908460396" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582238051998" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_algorithmic_efficiency.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582119592263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_algorithmic_efficiency.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582238813020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1581918366318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_alg_efficiency_math_and_numpy_html_tables.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582043995076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$test.coverage" NAME="test Coverage Results" MODIFIED="1582098993225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
-    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$01_basic_algorithms.coverage" NAME="01_basic_algorithms Coverage Results" MODIFIED="1582120216751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
-    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$03_insertion_and_merge_sort.coverage" NAME="03_insertion_and_merge_sort Coverage Results" MODIFIED="1582229682276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$01_basic_algorithms.coverage" NAME="01_basic_algorithms Coverage Results" MODIFIED="1582239320706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$03_insertion_and_merge_sort.coverage" NAME="03_insertion_and_merge_sort Coverage Results" MODIFIED="1582237007137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
   </component>
 </project>

@@ -130,11 +130,11 @@ def comparison_of_running_times():
               tabulate(table, headers, tablefmt="html") \
               + """</body></html>"""
 
-    f = open('Comparison of Running Times', 'w')
+    f = open(os.getcwd() + '/../output/Comparison of Running Times', 'w')
     f.write(message)
     f.close()
 
-    webbrowser.open_new_tab('file://' + os.getcwd() + '/Comparison of Running Times')
+    webbrowser.open_new_tab('file://' + os.getcwd() + '/../output/Comparison of Running Times')
 
 
 comparison_of_running_times()
