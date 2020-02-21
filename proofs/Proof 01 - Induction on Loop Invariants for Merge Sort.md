@@ -1,7 +1,5 @@
 # Proof 01 - Induction on Loop Invariants for Merge Sort
 
-### Description of Loop Invariant Technique
-
 * #### Identify the loop invariant of the loop in my merge_sort() function:
 
 * ####  Describe initialization step:

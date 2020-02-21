@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="492a6612-2f2b-47c5-8a33-3ce1f5ac7298" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/01_basic_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_basic_algorithms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/kennedy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/kennedy.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
