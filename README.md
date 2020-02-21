@@ -46,13 +46,13 @@ Run time for insertion sort with 1,000,000 integers will cap at over half a day.
 
 3).  On the command line, at input prompt, enter the following Unix command to make the file (say "insertionSort.py")  executable.
 
-      $ chmod +x insertionSort.py
+      $ chmod +x 04_alg_effcy_insertion.py
 
 4). Run the following command from the command line to run the code in background.
 
-      $   nohup insertionSort.py  > sort.txt &
+      $   nohup 04_alg_effcy_insertion.py  > sort.txt &
 
-       This will run "insertionSort.py" in background by adding "&" at the end of command line.   Also the output of the command will be redirected  to and stored in sort.txt file instead of displaying on the display.   "nohup" at the beginning of the command line tells  Unix OS to continue to execute the command at the background even if the current login shell ends (which means you log out from the shell and terminates your putty session).
+       This will run "04_alg_effcy_insertion.py" in background by adding "&" at the end of command line.   Also the output of the command will be redirected  to and stored in sort.txt file instead of displaying on the display.   "nohup" at the beginning of the command line tells  Unix OS to continue to execute the command at the background even if the current login shell ends (which means you log out from the shell and terminates your putty session).
 
 
 
