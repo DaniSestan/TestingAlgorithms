@@ -19,11 +19,11 @@ def guessing_game():
     high_num = 1000
 
     while num < 1 or num > 1000:
-        # try-catch to validate the input as an int
+        # try-catch to validate the data as an int
         try:
             num = int(input("Enter a number between 1 and 1000:"))
         except ValueError:
-            print("Invalid input. Try again.")
+            print("Invalid data. Try again.")
 
     while response != 'c':
         i += 1
@@ -41,7 +41,7 @@ def guessing_game():
             elif response == 'c':
                 break
             else:
-                print("Invalid input. Try again.")
+                print("Invalid data. Try again.")
 
     print("Done! Your number is %d. Guessed in %d time(s)" % (num, i))
 
@@ -77,7 +77,7 @@ def sum_up():
         try:
             num = int(input("Enter your_num for 0 .. your_num: "))
         except ValueError:
-            print("Invalid input. Try again")
+            print("Invalid data. Try again")
 
     while num >= 0:
         sum_num += num
@@ -148,7 +148,7 @@ def pure_random_guessing(nums):
 
 
 def top_word_occurrences():
-    file = os.getcwd() + '/../input/kennedy.txt'
+    file = os.getcwd() + '/../data/kennedy.txt'
     use_sample = ''
     while use_sample.lower() != 'n' and use_sample.lower() != 'y':
         use_sample = input("Use sample text file? Y/N")
