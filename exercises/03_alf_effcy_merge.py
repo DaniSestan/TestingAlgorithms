@@ -1,5 +1,5 @@
-# lst = [3, 2, 4, 5, 7, 7]
-lst = [7, 2, 3, 4, 5, 6, 7, 1, 2, 11, 2, 123, 4, 2, 4, 5, 333]
+# TODO: open and read from data file containing ~1000000 unsorted integers ranging from 1-1000000
+
 count = 0
 
 
@@ -38,6 +38,3 @@ def merge_sort(sort_list):
     if len(sort_list) == len(lst):
         print("Sorted: ", sort_list)
         print("Number of comparisons: ", count)
-
-
-merge_sort(lst)
