@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492a6612-2f2b-47c5-8a33-3ce1f5ac7298" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exercises/03b_alg_effcy_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_alf_effcy_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03a_alf_effcy_merge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <recent name="$PROJECT_DIR$/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_basic_algorithms">
+  <component name="RunManager" selected="Python.03b_alg_effcy_merge">
     <configuration name="01_basic_algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing-algorithms-in-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_alf_effcy_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03a_alf_effcy_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing-algorithms-in-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +123,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/03_alf_effcy_merge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/03a_alf_effcy_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03b_alg_effcy_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing-algorithms-in-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/03b_alg_effcy_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_alg_effcy_insertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing-algorithms-in-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/04_alg_effcy_insertion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,28 +198,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testing-algorithms-in-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
@@ -189,10 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03b_alg_effcy_merge" />
+        <item itemvalue="Python.03a_alf_effcy_merge" />
+        <item itemvalue="Python.04_alg_effcy_insertion" />
         <item itemvalue="Python.01_basic_algorithms" />
         <item itemvalue="Python.02_algorithmic_efficiency" />
-        <item itemvalue="Python.03_alf_effcy_merge" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +246,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1039" y="186" key="#Inspections" timestamp="1582323234226">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1039" y="186" key="#Inspections/0.0.1920.1044@0.0.1920.1044" timestamp="1582323234226" />
     <state x="847" y="183" width="1073" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581918575091">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -240,22 +270,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1227" y="283" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1581918324405" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1582239320723">
+    <state width="912" height="273" key="GridCell.Tab.0.bottom" timestamp="1582325075073">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320723" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1582239320722">
+    <state width="912" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582325075073" />
+    <state width="912" height="273" key="GridCell.Tab.0.center" timestamp="1582325075072">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320722" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1582239320721">
+    <state width="912" height="273" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582325075072" />
+    <state width="912" height="273" key="GridCell.Tab.0.left" timestamp="1582325075071">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320721" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1582239320722">
+    <state width="912" height="273" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582325075071" />
+    <state width="912" height="273" key="GridCell.Tab.0.right" timestamp="1582325075072">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582239320722" />
+    <state width="912" height="273" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582325075072" />
     <state x="921" y="160" key="SettingsEditor" timestamp="1582094885441">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -272,13 +302,20 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="644" y="118" width="632" height="807" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582244090337" />
+    <state x="1188" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1582297876149">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1188" y="168" key="refactoring.ChangeSignatureDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1582297876149" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582243898117">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582243898117" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$04_alg_effcy_insertion.coverage" NAME="04_alg_effcy_insertion Coverage Results" MODIFIED="1582290891641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$03b_alg_effcy_merge.coverage" NAME="03b_alg_effcy_merge Coverage Results" MODIFIED="1582325075049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_algorithmic_efficiency.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582238813020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/testing_algorithms_in_python$03a_alf_effcy_merge.coverage" NAME="03a_alf_effcy_merge Coverage Results" MODIFIED="1582300568477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1581918366318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$02_alg_efficiency_math_and_numpy_html_tables.coverage" NAME="02_algorithmic_efficiency Coverage Results" MODIFIED="1582043995076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/testing_algorithms_in_python$test.coverage" NAME="test Coverage Results" MODIFIED="1582098993225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
